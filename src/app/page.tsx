@@ -45,7 +45,7 @@ export default function Home() {
                       <span className="font-display text-xs text-white pb-1">
                         {wk}
                       </span>
-                      <DayStates day={true} />
+                      <DayStates day={undefined} />
                     </div>
                   );
                 })}
